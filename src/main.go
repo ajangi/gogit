@@ -1,8 +1,8 @@
 package main
 
 import (
-	common "github.com/ajangi/gogit/src/common"
-	commands "github.com/ajangi/gogit/src/utils/flag"
+	"github.com/ajangi/gogit/src/common"
+	"github.com/ajangi/gogit/src/utils/flag"
 )
 
 func main(){

@@ -5,3 +5,8 @@ type Request struct {
 	Uri       string
 	PerPage   int
 }
+
+type Flag struct {
+	User        string
+	PerPage     int
+}
