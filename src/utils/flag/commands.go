@@ -8,19 +8,25 @@ import (
 )
 
 func HandleFlags (){
-	GetFlags();
+	GetFlags()
 }
 
-func GetFlags (){
-	args := os.Args[1:];
+func GetFlags () bool{
+	args := os.Args[1:]
 	if len(args) == 0 {
 		common.Help()
 	}
 	for _, v := range args {
-		if v == "help" || v == "-help" || v =="--help"{
-			common.Help();
+		if v == "help" || v == "-help" || v =="--help" || v == "-h"{
+			common.Help()
+			return true
+		}
+		if v == "version" || v == "-version" || v =="--version" || v == "-v"{
+			common.Version()
+			return true
 		}
 	}
+	return true
 	//helpFlag := flag.String("help","","");
 	//flag.Parse();
 	//fmt.Println("----------------");

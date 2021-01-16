@@ -15,3 +15,7 @@ to get latest events use :
 func Help(){
 	fmt.Printf(consts.InfoColor,helpText)
 }
+
+func Version(){
+	fmt.Printf(consts.InfoColor,"gogot version "+consts.VERSION+"\n")
+}
