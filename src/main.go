@@ -1,13 +1,13 @@
 package main
 
 import (
-	//"flag"
-	"fmt"
 	common "github.com/ajangi/gogit/src/common"
+	commands "github.com/ajangi/gogit/src/utils/flag"
 )
 
 func main(){
 	common.Intro();
+	commands.HandleFlags();
 	/* helpFlag := flag.String("help","","The help flag.")
 	flag.Parse()
 	if *helpFlag == "" {
