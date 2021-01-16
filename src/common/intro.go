@@ -1,8 +1,8 @@
-package common;
+package common
 
 import (
 	"fmt"
-	const "github.com/ajangi/gogit/consts"
+	"github.com/ajangi/gogit/src/consts"
 )
 
 func Intro(){

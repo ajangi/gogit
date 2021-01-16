@@ -3,7 +3,7 @@ package main
 import (
 	//"flag"
 	"fmt"
-	common "github.com/ajangi/gogit/common"
+	common "github.com/ajangi/gogit/src/common"
 )
 
 func main(){
