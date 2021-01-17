@@ -1,5 +1,7 @@
 # GoGit
 ## A simple Github Toolkit written in Golang
+This is a very simple toolkit to use github API written in Golang.
+### Installation
 #### How to use :
 ```bash
 usage: gogit [--version] [--help] <command> [-u <user>] [-c <count>]
