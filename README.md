@@ -13,7 +13,10 @@ $ gogit events -u ajangi
 ```
 2- Download execution file
 ```bash
-$ wget 
+$ wget https://github.com/ajangi/gogit/releases/download/{version}/gogit
+$ sudo cp gogit /usr/local/bin/gogit
+$ sudo chmod +x /usr/local/bin/gogit
+$ gogit events -u ajangi 
 ```
 #### How to use :
 ```bash
