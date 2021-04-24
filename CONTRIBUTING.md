@@ -1,4 +1,4 @@
-## Contributing to PHP Rest Response 
+## Contributing to GoGit
 
 Hi! At first I should appreciate you for taking time to contribute. 
 The following items are the rules we should consider  contributing the repo.
