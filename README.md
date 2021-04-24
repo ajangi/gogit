@@ -74,3 +74,5 @@ $ gogit events -u ajangi -c 30
 | 29 | 14701487699 | CreateEvent      | ajangi   | SnappDoctor/drcoder | https://api.github.com/repos/SnappDoctor/drcoder |
 +----+-------------+------------------+----------+---------------------+--------------------------------------------------+
 ```
+### Contributing 
+Take a look at [CONTRIBUTING](CONTRIBUTING.md) for details.
